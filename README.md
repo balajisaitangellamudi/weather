@@ -30,3 +30,7 @@ Currently, two official plugins are available:
 3. The first section consists of the current weather, while the second section provides a 5-day weather forecast.
 4. The default temperature is shown in Fahrenheit. After the search bar, there will be two buttons to convert the temperature to Fahrenheit or Celsius.
 5. If any errors occur while using the application, they will be displayed on the screen.
+
+<!-- app hosted link -->
+
+https://balajisaitangellamudi.github.io/weather
