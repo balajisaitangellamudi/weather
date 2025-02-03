@@ -1,0 +1,50 @@
+/* Css for search component */
+.search_container {
+  border: 1px solid black;
+  padding: 2px;
+  border-radius: 4px;
+  background-color: #fff;
+  max-width: 400px;
+}
+
+/* When input is focused, change container border color */
+.search_container:focus-within {
+  border-color: red;
+}
+
+/* Input's default focus should have no border */
+.search_container input:focus {
+  outline: none;
+}
+
+.main_container {
+  min-height: 100vh;
+  background-color: #2f3d73;
+  background-image: linear-gradient(#2f3d73, #c1c7d1, #737c55);
+}
+
+/* loading spinner */
+.spinner-border {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-width: 0.2rem;
+}
+
+.toaster {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1050;
+  min-width: 200px;
+  background-color: #fff;
+  color: black;
+  border-radius: 5px;
+  padding: 6px;
+  font-size: 14px;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
